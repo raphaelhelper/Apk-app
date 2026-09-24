@@ -4,8 +4,6 @@ mkdir -p app/src/main/java/com/qui/wordpopup app/src/main/res/drawable app/src/m
 cp root_build.gradle.kts build.gradle.kts
 cp app_build.gradle.kts app/build.gradle.kts
 cp app_proguard-rules.pro app/proguard-rules.pro
-cp settings.gradle.kts settings.gradle.kts
-cp gradle.properties gradle.properties
 cp app_src_main_AndroidManifest.xml app/src/main/AndroidManifest.xml
 cp MainActivity.kt app/src/main/java/com/qui/wordpopup/MainActivity.kt
 cp PopupService.kt app/src/main/java/com/qui/wordpopup/PopupService.kt
